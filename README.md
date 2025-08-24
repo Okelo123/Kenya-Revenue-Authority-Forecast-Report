@@ -11,7 +11,7 @@ It uses machine learning and time-series forecasting models to project future tr
 ---
 
 ## 📸 Screenshot
-![KRA Forecast Screenshot](kra_forecast_screenshot.png)
+![KRA Forecast Screenshot](Screenshot%202025-08-24%20095814.png)
 
 ---
 
