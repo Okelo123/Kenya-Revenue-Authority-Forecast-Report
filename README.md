@@ -1,77 +1,79 @@
-📊 Kenya Revenue Authority Forecast Report
+# Kenya Revenue Authority - Revenue Forecast Report 📊🇰🇪
 
-A Streamlit-based forecasting dashboard that predicts Kenya Revenue Authority (KRA) tax collections and related metrics using Prophet, ARIMA, and Holt-Winters models.
-The app provides interactive insights, trend visualizations, and exportable PDF reports for policy makers, researchers, and financial analysts.
+This project is a **Streamlit web application** that provides interactive forecasting and analysis of Kenya Revenue Authority (KRA) metrics such as tax collection, compliance rate, VAT, customs duties, and digital services tax.  
+It uses machine learning and time-series forecasting models to project future trends and provide actionable insights.
 
-🚀 Live Demo
+---
 
-👉 Try the App Here
+## 🚀 Live Demo
+👉 [Try the App Here](https://kenya-revenue-appority-forecast-report-l9mf6mkt8t88bbgjwxvzsx.streamlit.app/)
 
-✨ Features
+---
 
-🔄 Model Choice: Toggle between Prophet, ARIMA, and Holt-Winters
+## 📸 Screenshot
+![KRA Forecast Screenshot](kra_forecast_screenshot.png)
 
-📅 Auto Frequency Detection: Monthly / Quarterly support
+---
 
-🎯 Accuracy Metrics: MAE & RMSE via backtesting
+## ✨ Features
+- 📈 Forecasts revenue collection trends (e.g., Corporate Tax, VAT, Customs Duties).  
+- 🧮 Supports multiple models (Prophet, ARIMA, Holt-Winters).  
+- 📊 Interactive visualization with confidence intervals.  
+- 🏛 Useful for policymakers, researchers, and financial analysts.  
+- 🔮 Predicts **Taxpayer Growth**, **Compliance Rates**, and **Digital Services Tax** revenue.  
 
-📈 Confidence Interval Controls for forecast uncertainty
+---
 
-📑 Exportable PDF Reports with charts, logo & custom title
+## 🛠 Tech Stack
+- [Python](https://www.python.org/)  
+- [Streamlit](https://streamlit.io/)  
+- [Prophet](https://facebook.github.io/prophet/)  
+- [Statsmodels](https://www.statsmodels.org/)  
+- [Pandas & Numpy](https://pandas.pydata.org/)  
+- [Matplotlib & Plotly](https://matplotlib.org/)  
 
-📊 Simulated KRA Dataset with metrics like:
+---
 
-Total Revenue (KES Billion)
+## 📂 Installation & Setup
 
-Corporate Tax (KES Billion)
+1. Clone this repository  
+   ```bash
+   git clone https://github.com/your-username/kenya-revenue-authority-forecast-report.git
+   cd kenya-revenue-authority-forecast-report
+Create and activate a virtual environment
 
-VAT Collection (KES Billion)
+bash
+Copy
+Edit
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+Install dependencies
 
-Tax Compliance Rate (%)
-
-Taxpayer Growth (%)
-
-Digital Services Tax (KES Billion)
-
-Customs Duties (KES Billion)
-
-🛠 Installation
-
-Clone the repo:
-
-git clone https://github.com/your-username/kenya-revenue-authority-forecast-report.git
-cd kenya-revenue-authority-forecast-report
-
-
-Install dependencies:
-
+bash
+Copy
+Edit
 pip install -r requirements.txt
+Run the Streamlit app
 
-
-Run the app locally:
-
+bash
+Copy
+Edit
 streamlit run app.py
+📊 Example Forecasts
+Revenue projections up to 2030
 
-📂 Project Structure
-├── app.py                # Main Streamlit app
-├── requirements.txt      # Python dependencies
-├── data/                 # Sample dataset
-├── reports/              # Exported PDF reports
-└── README.md             # Project documentation
+VAT growth analysis
 
-📷 Screenshots
-1. Dashboard Homepage
+Compliance rate improvements
 
-2. Forecast Results
-
-3. Exported PDF Report
+Impact of digital economy on taxation
 
 🤝 Contributing
-
-Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to improve.
+Contributions are welcome! Feel free to fork this repo and submit a pull request.
 
 📜 License
-
 This project is licensed under the MIT License.
 
-⚡ Built with Streamlit & Prophet to power data-driven decision-making for Kenya Revenue Authority.
+🌍 Author
+Developed with ❤️ in Kenya 🇰🇪
+By Dev JUMA
